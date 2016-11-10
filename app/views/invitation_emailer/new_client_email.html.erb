@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Hi Laura</h1>
+    <h2>New Client submitted the questionnaire.</h2>
+    <h2>Below is the information</h2>
+    <h3>Name : <%= @form["name"]%></h3>
+    <h3>Question 1:Where are you now with your health?</h3>
+    <h3><%= @form["past"]%></h3>
+    <h3>Question 2:Where would you like to be?</h3>
+    <h3><%= @form["future"]%></h3>
+    <h3>Question 3:How can I help you get there?</h3>
+    <h3><%= @form["help"]%></h3>
+  </body>
+</html>

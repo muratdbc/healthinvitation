@@ -1,0 +1,30 @@
+<div class="row">
+  <br><br><br>
+  <div class="medium-8 medium-centered column">
+    <p>I look forward to speaking with you. Please answer three questions and  you will be taken to the calendar to schedule a conversation. – Dr. Fletcher</p>
+  </div>
+  <form >
+    <div class="medium-8 medium-centered column">
+        <form>
+            <label>Name:
+              <input ng-model="connect.name" type="text" >
+            </label>
+        </form>
+    </div>
+    <div class="medium-8 column medium-centered">
+      <label>What is your expertise?</label>
+      <textarea  ng-model="connect.expertise" cols="30" rows="6"></textarea>
+    </div>
+    <div class="medium-8 column medium-centered">
+     <label>How can I be of service to you?</label>
+      <textarea ng-model="connect.service"  cols="30" rows="6"></textarea>
+    </div>
+    <div class="medium-8 column medium-centered">
+      <label>How can we collaborate?</label>
+      <textarea ng-model="connect.collaborate" cols="30" rows="6"></textarea>
+    </div>
+    <div class="medium-8 column medium-centered" style="text-align: center;">
+      <button type="submit" ng-click="sendConnectEmail(connect)" />Take me to Calendar</button>
+    </div>
+  </form>
+</div>
