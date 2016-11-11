@@ -27,6 +27,7 @@ gem 'foundation-rails'
 
 gem 'angularjs-rails'
 gem 'pg'
+gem 'rack-cors'
 
 
 # Use ActiveModel has_secure_password
