@@ -7,24 +7,24 @@
     <div class="medium-8 medium-centered column">
         <form>
             <label>Name:
-              <input ng-model="client.name" type="text" >
+              <input ng-model="client.name" type="text" required>
             </label>
         </form>
     </div>
     <div class="medium-8 column medium-centered">
       <label>Where are you now with your health?</label>
-      <textarea  ng-model="client.past" cols="30" rows="6"></textarea>
+      <textarea  ng-model="client.past" cols="30" rows="6" required></textarea>
     </div>
     <div class="medium-8 column medium-centered">
       <label>Where would you like to be?</label>
-      <textarea ng-model="client.future"  cols="30" rows="6"></textarea>
+      <textarea ng-model="client.future"  cols="30" rows="6" required></textarea>
     </div>
     <div class="medium-8 column medium-centered">
       <label>How can I help you get there?</label>
-      <textarea ng-model="client.help"  cols="30" rows="6"></textarea>
+      <textarea ng-model="client.help"  cols="30" rows="6" required></textarea>
     </div>
     <div class="medium-8 column medium-centered" style="text-align: center;">
-      <button type="submit" ng-click="sendClientEmail(client)" />Take me to Calendar</button>
+      <button type="submit" ng-click="sendClientEmail(client)" />Take me to the Calendar</button>
     </div>
   </form>
 </div>

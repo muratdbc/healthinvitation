@@ -26,7 +26,7 @@
           if($scope.status.status===200){
             $window.location.href = '/calendar';
           }else{
-            console.log("Something went wrong")
+            alert("Something went wrong! Please send an email to support@healthinvitation.com")
           }
         });
       }
@@ -40,7 +40,7 @@
           if($scope.status.status===200){
             $window.location.href = '/calendar';
           }else{
-            console.log("Something went wrong")
+            alert("Something went wrong! Please send an email to support@healthinvitation.com.")
           }
         });
       }
@@ -54,7 +54,7 @@
           if($scope.status.status===200){
             $window.location.href = '/calendar';
           }else{
-            console.log("Something went wrong")
+            console.log("Something went wrong! Please send an email to support@healthinvitation.com")
           }
         });
       }

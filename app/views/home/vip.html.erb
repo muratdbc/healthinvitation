@@ -6,15 +6,15 @@
       <form>
           <div class="medium-8 medium-centered column">
                   <label>Name:
-                    <input ng-model="vip.name" type="text" >
+                    <input ng-model="vip.name" type="text" required>
                   </label>
                   <label>Purpose of the call:
-                    <input ng-model="vip.purpose" type="text" >
+                    <input ng-model="vip.purpose" type="text" required>
                   </label>
           </div>
           <br>
           <div class="medium-8 column medium-centered"style="text-align: center;">
-                <button type="submit" ng-click="sendVipEmail(vip)" />Take me to Calendar</button>
+                <button type="submit" ng-click="sendVipEmail(vip)" />Take me to the Calendar</button>
            </div>
       </form>
 </div>
