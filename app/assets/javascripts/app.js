@@ -19,7 +19,7 @@
       $scope.sendClientEmail=function(user){
         $scope.masterClient=angular.copy(user)
         console.log($scope.masterClient)
-        var url="https://healthinvitation.herokuapp.com/client"
+        var url="http://www.healthinvitation.com/client"
         httpService.post($scope.masterClient,url).then(function(statusData) {
           $scope.status = statusData;
           console.log($scope.status)
@@ -33,7 +33,7 @@
       $scope.sendConnectEmail=function(connect){
         $scope.masterConnect=angular.copy(connect)
         console.log($scope.masterConnect)
-        var url="https://healthinvitation.herokuapp.com/connect"
+        var url="http://www.healthinvitation.com/connect"
         httpService.post($scope.masterConnect,url).then(function(statusData) {
           $scope.status = statusData;
           console.log($scope.status)
@@ -47,7 +47,7 @@
       $scope.sendVipEmail=function(vip){
         $scope.masterVip=angular.copy(vip)
         console.log($scope.masterVip)
-        var url="https://healthinvitation.herokuapp.com/vip"
+        var url="http://www.healthinvitation.com/vip"
         httpService.post($scope.masterVip,url).then(function(statusData) {
           $scope.status = statusData;
           console.log($scope.status)
